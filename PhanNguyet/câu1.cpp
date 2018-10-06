@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-	int a,b,c,max,min;		// chỉnh lại bố cục code
-	scanf("%d %d %d",&a,&b,&c);	// trong scanf hạn chế thêm các kí tự kh trắng
+	int a,b,c,max,min;
+	scanf("%d %d %d",&a,&b,&c);
 	if (a>=b && a>=c) {		
 		max=a;
 		}
