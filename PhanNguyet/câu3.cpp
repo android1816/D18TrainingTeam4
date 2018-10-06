@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
 	int n;
-	scanf("%d",&n);
+	scanf("%d",&n);		// chỉnh lại bố cục code
 	if (n==0){
 		printf("0");
 		}
