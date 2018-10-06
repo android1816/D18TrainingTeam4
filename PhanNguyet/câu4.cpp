@@ -7,7 +7,7 @@ int main (){
 		t=n/2;
 		}
 	else if (n>15000000 && n<1000000000) {
-		t=n-n/3;
+		t=n-n/3;	// sai toán học
 		}
 	else if (n>7000000 && n<15000000)  {
 	    t=n-n/5;
