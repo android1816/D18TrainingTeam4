@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main (){
-	int n;
-	printf("nhap diem: ");
-	scanf("%d",&n);
-	if (n<=10){
+int n;
+printf("nhap diem: ");
+scanf("%d",&n);
+  if (n<=10){
 	if (n>=9){
 		printf("xuat sac");
 		}
@@ -11,8 +11,8 @@ int main (){
 		printf("gioi");
 		}
 	else if ((n>=7)&&(n<8)){
-	    printf("kha");
-	    }
+	        printf("kha");
+	        }
 	else if ((n>=6)&&(n<7)){
 		printf("TB kha");
 		}
