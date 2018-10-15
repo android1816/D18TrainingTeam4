@@ -1,7 +1,8 @@
 #include <stdio.h>
 int ktra(int n) {
 	int s=0;
-	for (int i = 1; i < n; i++) {
+	for (int i = 1; i < n; i++) { // sai vì trong quá trình tìm ước của N có thể tạo ra tổng ước = N nhưng chưa phải là tổng
+					// 
 		if (n % i == 0) {
 			s = s + i;
 		}
