@@ -11,8 +11,9 @@ int main ()
 		s=sqrt(p*(p-a)*(p-b)*(p-c));
 		printf("%lf", s);
 	}
-	else printf("-1");
-    return 0;
+	else 
+		printf("-1");
+        return 0;
 }
 //Code By PMD
 
