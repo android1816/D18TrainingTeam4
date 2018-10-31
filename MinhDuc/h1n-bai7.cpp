@@ -4,9 +4,9 @@
 int main ()
 {
 
-int a;
+long long a;
 	printf("nhap vao so a:");
-	scanf("%d",&a);
+	scanf("%lld",&a);
 	{
 		switch (a)
 		{
