@@ -8,7 +8,7 @@ int main()
 	denta=pow(b,2)-4*a*c;
 	if (denta==0)
 		{
-			printf ("nghiem  duy nhat: %.5f", -b/(2*a));
+			printf ("nghiem  duy nhat: %.5f", float(-b/(2*a)));
 		}
 	else 
 		{

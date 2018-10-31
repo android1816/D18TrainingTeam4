@@ -5,22 +5,18 @@ int main()
 	long long a;
 	printf ("nhap muc luong ban dau: ");
 	scanf ("%lld", &a);
-	if ( (a>=5*pow(10,7)) && (a<pow(10,9)) )
+	if ( (a>=9*pow(10,6)) && (a<5*pow(10,7)) )
 		{
-			printf ("muc luong sau thue la: %lld", 0.7*a);
+			printf ("muc luong sau thue la: %f", 0.9*a);
 		}
-	else 
-	{
-		if ( a<5*pow(10,7) )
+	if ( (a>5*pow(10,7)) && (a<pow(10,9)) )
 		{
-			printf ("muc luong sau thue la: %lld", 0.9*a);	
+			printf ("muc luong sau thue la: %f", 0.7*a);
 		}
-		else 
+	if ( a>=pow(10,9))
 		{
-			printf ("muc luong sau thue la: %lld",0.5*a);
+			printf ("muc luong sau thue la: %f", 0.5*a);
 		}
-	}
-	
 
 	return 0;
 }
