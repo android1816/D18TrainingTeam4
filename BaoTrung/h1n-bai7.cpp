@@ -4,7 +4,7 @@ int main()
 {
 	int a;
 	printf("nhap vao so N:");
-	scanf("%d",a);
+	scanf("%d",&a);
 	{
 		switch (a){
 			case 0 : printf("zero");break;
