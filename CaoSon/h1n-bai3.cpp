@@ -3,9 +3,9 @@
 #include <conio.h>
 int main(void)
 {
-	float a;
+	double a;
 	printf("nhap vao so a bat ki: ");
-	scanf("%f",&a);
+	scanf("%lf",&a);
 	if(a==0)
 	{
 		printf("khong la ca hai");
