@@ -9,7 +9,7 @@ int main(void)
 	scanf("%d%d%d",&a,&b,&c);
 		if (a+b>c && a+c>b && b+c>a)
 		{
-			p=(a+b+c)/2;
+			p=(float)(a+b+c)/2;
 			s=(float)sqrt(p*(p-a)*(p-b)*(p-c));
 			printf("Dien tich tam giac la: %f",s);
 		}
