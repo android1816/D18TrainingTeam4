@@ -22,20 +22,9 @@ int main(void)
 		d=(b*b-4*a*c);
 		if(d==0)
 		{
-			if(b==0 && c!=0)
-			{
-				printf("vo nghiem"):
-			}
-			else if(b==0 && c==0)
-			{
-				printf("vo so nghiem");
-			}
-			else
-			{
 			x=(double)-b/2*a;
 			printf("1\n");
 			printf("%.5lf",x);
-			}
 		}
 		else
 		{
