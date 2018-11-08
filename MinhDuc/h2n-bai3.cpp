@@ -1,9 +1,10 @@
 #include<stdio.h>
+#define max 10000
 int main()
 {
 	int a, b, i, j, s,d=1;
 	scanf("%d %d",&a,&b);
-	if (a>b) return 0;
+	if (a<0 || b>max || a>b ) return 0;
 	for(i=a; i<=b; ++i)
 {
 	s=1;
