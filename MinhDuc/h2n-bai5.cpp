@@ -51,7 +51,7 @@ int main()
 {
 	int L,R,dem,i;
 	scanf("%d%d",&L,&R);
-	if (L<0 || R>max) return 0;
+	if (L<=0 || R>=max) return 0;
 	for(i=L;i<=R;i++)
 	{
 		if (tongnguyento(i)!=0 && sochuso(i)!= 0 && sothuannghich(i)!= 0)
