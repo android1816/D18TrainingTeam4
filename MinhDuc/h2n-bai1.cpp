@@ -4,7 +4,7 @@ int main ()
 	int n,k,T;
 	long long gt1=1,gt2=1,gt3=1;
 	  scanf("%d %d",&n,&k);
-	  if ( n<k || n>=21) return 0;
+	  if ( n<=0 || n<k || n>=21) return 0;
 	for(int i=1;i<=n;i++){
 	  	gt1=gt1*i;
 		}
