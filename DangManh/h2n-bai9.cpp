@@ -2,18 +2,32 @@
 #include <math.h>
 int main()
 {
-	int a[1000],n,x;
-	scanf("%d %d",&n,&x);
-	for (int i=1;i<=n;i++){
-		scanf("%d",&a[i]);
+	int n,i,j;
+	long long x,a[100000];
+	scanf("%lld%lld",&n,&x);
+	for(i=1;i<=n;i++)
+	{
+		scanf("%lld",&a[i]);
 	}
-	for (int i=1;i<=n;i++){
-		if (a[i]!=x){
-			printf("%d ",a[i]);
+	for(i=1;i<=n;)
+	{
+		if(a[i]==x)
+		{
+			j=i;
+			for(i=j;i<=n;i++)
+			{
+				a[i]=a[i+1];
+			}
+			n--;
+			i=j;
+		}
+		else
+		{
+			i++;
 		}
 	}
-	return 0;
+	for(i=1;i<=n;i++)
+	{
+		printf("%lld ",a[i]);
+	}
 }
-
-// code by Manh
-
