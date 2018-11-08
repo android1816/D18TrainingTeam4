@@ -3,7 +3,7 @@
 int main()
 {
     int n,k;
-    long long a,A[100];
+    long long a,A[100000];
     scanf("%d %d %lld",&n,&k,&a);
     if (k>n || n>max) return 0;
     for(int i=0; i<n; i++)
