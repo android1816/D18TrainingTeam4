@@ -13,13 +13,11 @@ int main()
 	{
 		if(a[i]==x)
 		{
-			j=i;
-			for(i=j;i<=n;i++)
+			for(j=i;j<=n;j++)
 			{
-				a[i]=a[i+1];
+				a[j]=a[j+1];
 			}
 			n--;
-			i=j;
 		}
 		else
 		{
